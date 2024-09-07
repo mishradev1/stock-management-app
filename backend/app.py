@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 load_dotenv()  # Load environment variables from .env file
 
-MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://dev:YE5HhR9PbZZtPFXz@cluster0.ebtn2fd.mongodb.net/_stocks")
+MONGO_URL = os.getenv("MONGO_URL", "MONGO_URL")
 
 
 # Enable CORS for all routes
