@@ -1,1 +1,18 @@
+# Environment variables
 .env
+
+# Node modules (for frontend)
+node_modules/
+
+# Python virtual environment (for backend)
+venv/
+
+# Compiled files
+*.pyc
+__pycache__/
+*.log
+*.DS_Store
+
+# Build output (for frontend)
+build/
+dist/
