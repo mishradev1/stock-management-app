@@ -2,6 +2,8 @@
 
 This is the backend application for the Stock Management system. It provides an API for managing stocks, including CRUD operations and pagination. The application is built with Flask and uses MongoDB for data storage.
 
+- Live Site - https://stock-frontend-5yat.onrender.com/
+
 ## Features
 
 - CRUD operations for stocks
