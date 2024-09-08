@@ -76,5 +76,7 @@ def delete_stock(id):
         return jsonify({"error": "Stock not found"}), 404
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    # Get the port from environment variables or use 5000 as the default
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=True)
